@@ -1,17 +1,17 @@
-use inc::Module::Install 0.91;
+#!/usr/bin/env perl
 
-use warnings;
 use strict;
+use warnings FATAL => 'all';
+use inc::Module::Install;
 
 all_from 'lib/Patterns/ChainOfResponsibility.pod';
-repository 'git://github.com/jjn1056/Patterns-ChainOfResponsibility.git';
+requires 'Moose' => '1.21';
+requires 'MooseX::Types' => '0.25';
+requires 'MooseX::Role::Parameterized' => '0.23',
+test_requires 'Test::More' => '0.96';
 
-requires 'Moose' => '1.03';
-requires 'MooseX::Types' => '0.21';
-requires 'MooseX::Role::Parameterized' => '0.18',
-build_requires 'Test::More' => '0.92';
+require 'maint/Makefile.PL.include'
+  if $Module::Install::AUTHOR;
 
-auto_install;
-tests_recursive;
 WriteAll;
 

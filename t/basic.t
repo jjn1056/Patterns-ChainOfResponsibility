@@ -1,7 +1,7 @@
 use strict;
-use warnings;
+use warnings FATAL => 'all';
+use Test::More tests => 1;
 
-use Test::More;
-use_ok 'Patterns::ChainOfResponsibility::Role::Handler';
+BEGIN { use_ok 'Module::Setup::Flavor::JJNAPIORK' }
 
 done_testing();
