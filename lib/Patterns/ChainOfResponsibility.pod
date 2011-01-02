@@ -17,10 +17,6 @@ review the tests.
 For now you can review the wikipedia article:
 
 http://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
-
-Yes I know the examples are in java and python.
-
-More docs to come.
  
 =head1 AUTHOR
 
