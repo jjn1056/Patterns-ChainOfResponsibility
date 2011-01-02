@@ -34,7 +34,7 @@ John Napiorkowski C<< <jnapiork@cpan.org> >>
  
 =head1 LICENSE & COPYRIGHT
  
-Copyright 2010, John Napiorkowski C<< <jjnapiork@cpan.org> >>
+Copyright 2011, John Napiorkowski C<< <jjnapiork@cpan.org> >>
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
