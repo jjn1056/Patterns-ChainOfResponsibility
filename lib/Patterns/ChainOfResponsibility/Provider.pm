@@ -30,7 +30,7 @@ Please see L<Patterns::ChainOfResponsibility::Role::Handler>
  
 =head1 AUTHOR
 
-John Napiorkowski C<< <jnapiork@cpan.org> >> 
+John Napiorkowski C<< <jjnapiork@cpan.org> >> 
  
 =head1 LICENSE & COPYRIGHT
  

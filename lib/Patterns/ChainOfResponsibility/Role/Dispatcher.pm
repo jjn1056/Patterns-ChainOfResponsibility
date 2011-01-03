@@ -30,7 +30,7 @@ to process and figure out what to do.
 
 =head1 AUTHOR
 
-John Napiorkowski C<< <jnapiork@cpan.org> >> 
+John Napiorkowski C<< <jjnapiork@cpan.org> >> 
  
 =head1 LICENSE & COPYRIGHT
  

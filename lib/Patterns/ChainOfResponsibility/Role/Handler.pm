@@ -183,7 +183,7 @@ terminated 'return' (see L</SYNOPSIS>.
 
 =head1 AUTHOR
 
-John Napiorkowski C<< <jnapiork@cpan.org> >> 
+John Napiorkowski C<< <jjnapiork@cpan.org> >> 
  
 =head1 LICENSE & COPYRIGHT
  

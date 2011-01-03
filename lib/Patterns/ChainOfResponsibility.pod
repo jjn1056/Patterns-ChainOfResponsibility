@@ -20,7 +20,7 @@ http://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
  
 =head1 AUTHOR
 
-John Napiorkowski C<< <jnapiork@cpan.org> >> 
+John Napiorkowski C<< <jjnapiork@cpan.org> >> 
  
 =head1 LICENSE & COPYRIGHT
  
