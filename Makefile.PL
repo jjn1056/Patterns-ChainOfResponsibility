@@ -7,6 +7,7 @@ use inc::Module::Install;
 all_from 'lib/Patterns/ChainOfResponsibility.pod';
 requires 'Moose' => '1.21';
 requires 'MooseX::Role::Parameterized' => '0.23',
+requires 'Class::Load' => '0.20';
 test_requires 'Test::More' => '0.96';
 
 require 'maint/Makefile.PL.include'

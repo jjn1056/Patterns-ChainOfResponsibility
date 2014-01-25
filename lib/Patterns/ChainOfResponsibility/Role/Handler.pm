@@ -1,6 +1,7 @@
 package Patterns::ChainOfResponsibility::Role::Handler;
 
 use MooseX::Role::Parameterized;
+use Class::Load;
 
 parameter 'handler_method' => (
     isa => 'Str',
@@ -19,7 +20,7 @@ role {
     if($dispatcher =~m/^::/) {
         $dispatcher = "Patterns::ChainOfResponsibility".$dispatcher;
     }
-    Class::MOP::load_class($dispatcher);
+    Class::Load::load_class($dispatcher);
 
     has 'dispatcher' => (
         is => 'bare',
